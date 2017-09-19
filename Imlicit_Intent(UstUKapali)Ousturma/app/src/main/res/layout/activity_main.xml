@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="android.imlicit_intentustukapaliousturma.MainActivity">
+
+
+
+    <Button
+        android:id="@+id/btn_web_sitei_ac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Web Sitesi aç"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="61dp" />
+
+    <Button
+        android:id="@+id/btn_harita_ac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Harita Aç"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="163dp" />
+
+    <Button
+        android:id="@+id/btn_Veri_paylas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Veri Paylaş"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="289dp" />
+
+</LinearLayout>

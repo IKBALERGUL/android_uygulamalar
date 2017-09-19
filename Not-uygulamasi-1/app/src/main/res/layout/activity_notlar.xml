@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="android.not_uygulamasi_1.NotlarActivity">
+    <Button
+        android:id="@+id/btn_yeni_not"
+        android:background="@drawable/button_stil"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Yeni Not" />
+    <ListView
+        android:layout_marginTop="10dp"
+        android:id="@+id/lv_notlar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         />
+
+
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="android.not_uygulamasi_1.LoginActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        app:srcCompat="@mipmap/loginlogo" />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/et_email"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@drawable/edittext_stil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/et_sifre"
+        android:background="@drawable/edittext_stil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:background="@drawable/button_stil"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:id="@+id/btn_giris"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Giriş"/>
+
+    <Button
+        android:background="@drawable/button_stil"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:id="@+id/btn_yeni_kayit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yeni Kayıt" />
+
+
+</LinearLayout>

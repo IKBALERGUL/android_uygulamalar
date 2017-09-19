@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="android.gorselbilesenler_spinner.MainActivity">
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Manuel olarak ekleme!"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:id="@+id/textView" />
+
+    <Spinner
+        android:id="@+id/spinner_manuel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/country_arrays"
+       />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+
+        android:text="Kodla veri ekleme" />
+
+    <Spinner
+        android:id="@+id/spinner_kodla"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+      android:layout_marginTop="20dp" />
+    <Button
+        android:id="@+id/btn_secileni_goster"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seçilen ayarları göster"/>
+</LinearLayout>

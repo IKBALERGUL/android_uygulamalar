@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="country_arrays">
+        <item>Türkiye</item>
+        <item>Ankara</item>
+        <item>istanbul</item>
+        <item>van</item>
+        <item>zonguldak</item>
+        <item>diyarbakır</item>
+        <item>sivas</item>
+        <item>bursa</item>
+    </array>
+</resources>

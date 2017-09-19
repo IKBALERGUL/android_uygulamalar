@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_gradient"
+    android:padding="20dp"
+    tools:context="android.farkli_dil_destegi.MainActivity">
+
+    <TextView
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:id="@+id/tv_ad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_ad_name"
+       />
+
+    <EditText
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:background="@drawable/bg_form_rounded"
+        android:layout_marginTop="20dp"
+        android:id="@+id/et_ad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+       android:hint="@string/et_ad_name"
+         />
+
+    <TextView
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:id="@+id/tv_soyad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_soyad_name" />
+
+    <EditText
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:background="@drawable/bg_form_rounded"
+        android:layout_marginTop="20dp"
+        android:id="@+id/et_soyad"
+      
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:hint="@string/et_soyad_name"
+        android:ems="10"
+        android:inputType="textPersonName"/>
+
+    <Button
+        android:textColor="@color/white"
+        android:background="@drawable/bg_button_rounded"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn_kaydet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_kaydet_name"
+        />
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="android.gorselbilesenlercheckbox.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="79dp"
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="208dp"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/cb_Java"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="istanbul" />
+
+        <CheckBox
+            android:id="@+id/cb_android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="van" />
+
+        <CheckBox
+            android:id="@+id/cb_csharp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="sivas" />
+
+        <Button
+            android:id="@+id/btn_secilenleri_goster"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seçilenleri_Göster" />
+    </LinearLayout>
+</RelativeLayout>

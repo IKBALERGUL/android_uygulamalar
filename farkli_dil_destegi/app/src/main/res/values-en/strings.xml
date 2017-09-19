@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">farkli_dil_destegi</string>
+    <string name="tv_ad_name">Ad:</string>
+    <string name="et_ad_name">Bir Ad Giriniz</string>
+    <string name="tv_soyad_name">Soyad:</string>
+    <string name="et_soyad_name">Bir Soyad Giriniz</string>
+    <string name="btn_kaydet_name">Kaydet</string>
+    <string name="toast_kaydedildi_name">Veriler başarıyla kaydedildi.</string>
+</resources>
